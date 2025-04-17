@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: hello-cloud
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
